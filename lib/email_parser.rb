@@ -12,8 +12,9 @@ attr_accessor :email_addresses
 def self.parse(emails)
   rows = emails.split(", ")
   addresses = rows.collect do |row|
-    domain = row.split
     binding.pry
+    domain = row.split
+    
   end
 end
 
