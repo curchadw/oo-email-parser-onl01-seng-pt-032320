@@ -14,10 +14,8 @@ def initialize(email_addresses)
 @email_addresses = email_addresses
 end
 
-def self.parse(emails)
-  CSV.parse(emails) do |row|
-    
-  end
+def parse
+  
 end
 
 
