@@ -10,8 +10,8 @@ attr_accessor :email_addresses
 
 @@emails = Array.new
 
-def initialize(name)
-@nam
+def initialize(email_addresses)
+@email_addresses = email_addresses
 end
 
 def self.parse(emails)
