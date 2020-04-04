@@ -11,7 +11,7 @@ attr_accessor :email_addresses
 @@emails = Array.new
 
 def self.parse(emails)
-  CSV.parse
+  CSV.parse(emails) 
 end
 
 
