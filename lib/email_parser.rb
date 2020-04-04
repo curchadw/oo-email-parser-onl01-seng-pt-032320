@@ -12,8 +12,6 @@ attr_accessor :email_addresses
 
 def self.parse(emails)
   CSV.parse(emails)
-    
-  end
 end
 
 
