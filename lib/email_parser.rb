@@ -10,6 +10,10 @@ attr_accessor :email_addresses
 
 @@emails = Array.new
 
+def initialize(name)
+@nam
+end
+
 def self.parse(emails)
   CSV.parse(emails) do |row|
     
