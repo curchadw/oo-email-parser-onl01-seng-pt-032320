@@ -15,7 +15,7 @@ def initialize(email_addresses)
 end
 
 def parse
-   email_addresses.split(/, | /).flatten.uniq
+   email_addresses.split(/, | /).uniq
    
 end
 
