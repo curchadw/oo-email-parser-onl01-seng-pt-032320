@@ -15,7 +15,7 @@ def initialize(email_addresses)
 end
 
 def parse
-   email_addresses.split(/[,\s]/).select{|address| address != ""}.uniq 
+   email_addresses.split(/[,\s]/)
 end
 
 
