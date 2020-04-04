@@ -8,9 +8,10 @@ attr_accessor :email_addresses
 @@emails = Array.new
 
 def self.parse(emails)
-  rows = emails.split("\n")
+  rows = emails.split(", ")
   addresses = rows.collect do |row|
-  
+    domain = row.split
+    
   end
 end
 
