@@ -8,7 +8,7 @@ attr_accessor :email_addresses
 @@emails = Array.new
 
 def parse
-
+  rows = 
 end
 
 
