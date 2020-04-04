@@ -7,8 +7,11 @@ attr_accessor :email_addresses
 
 @@emails = Array.new
 
-def parse
-  rows = 
+def self.parse(emails)
+  rows = emails.split("\n")
+  addresses = rows.collect do |row|
+  
+  end
 end
 
 
